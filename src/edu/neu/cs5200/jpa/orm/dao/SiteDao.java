@@ -14,7 +14,7 @@ import edu.neu.cs5200.jpa.orm.models.Site;
 
 public class SiteDao {
 
-	EntityManagerFactory factory = Persistence.createEntityManagerFactory("DB_XML");
+	EntityManagerFactory factory = Persistence.createEntityManagerFactory("xslt_assignment");
 	EntityManager em = null;
 	
 	public Site findSite(int siteId){
